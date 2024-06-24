@@ -1,0 +1,6 @@
+~40% time consumption:
+    Bubble sort is slow because it has a time complexity of n^2. 
+    It consists of 2 for loops, and it takes forever to loop through all of the elements.
+~30% time consumption: std::vector<int, std::allocator<int> >::operator[](unsigned long)
+    This overloaded operator is called throughout Bubble sort and consumes a lot of time
+    from how many times it is called in Bubble sort.
